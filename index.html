@@ -7,27 +7,28 @@
 <link rel = "stylesheet" href = "style.css">
 <link rel = "stylesheet" href = "reset.css">
 <link rel = "stylesheet" href = "header.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+<link rel="preconnect" href="https://fonts.gstatic.com&quot; crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&quot; rel="stylesheet">
 </head>
 
 <header class = "cabecalho">
 
 <div class = "container">
-<!--ADICIONAR A TAG INPUT AQUI-->
 <input type = "checkbox" id = "menu" placeholder = "container__botao">
-
-<!--ADICIONAR A TAG LABEL AQUI-->
-<label for = "menu">
-<span class = "cabecalho__menu-hamburguer"></span>
+<label for="menu">
+<span class="cabecalho_menu-hamburguer"></span>
 </label>
 
 <!--ADICIONAR AS TAGS DE LISTA AQUI-->
 <ul class = "lista-menu">
 <li class = "lista-menu__titulo">CATEGORIAS</li>
-<a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Programação</li> </a>
-<a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Romance</li> </a>
-<a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Ficção Científica</li> </a>
-<a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Diversos</li> </a>
+<li class = "lista-menu__item">Programação</li> <a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Programação</li> </a>
+<li class = "lista-menu__item">Romance</li> <a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Romance</li> </a>
+<li class = "lista-menu__item">Ficção Científica</li> <a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Ficção Científica</li> </a>
+<li class = "lista-menu__item">Diversos</li> <a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Diversos</li> </a>
 </ul>
+
 <a href = "#"> <img src = "IMG/Logo.svg" alt = "logotipo do aplicativo"> </a>
 
 </div>
@@ -43,5 +44,75 @@
 <body>
 <h1>Universo's Book</h1>
 <p>Aqui você encontra o livro que você precisa!</p>
+<section class="banner">
+<h1 class="banner_titulo">Universo's Book</h1>
+<p class="banner_texto">Aqui você encontra o livro que você precisa!</p>
+<h2 class="banner_titulo">Já sabe por onde começar?</h2>
+<p class="banner_texto">Encontre o livro o livro que precisa para seu desenvolvimento</p>
+<input type="search" class="banner_pesquisa" placeholder="Qual a sua próxima leitura">
+</section>
+
+<section class="carrosel">
+<div class="swiper">
+<h2 class="carrosel_titulo">NOVOS LANÇAMENTOS</h2>
+</section>
+<div class="swipper-wrapper">
+<div class="swiper-slide"> <img src="IMG/ApacheKafka.png" alt="livro de programação"> </div>
+<div class="swiper-slide"> <img src="IMG/Liderança.png" alt="Livro que fala sobre Liderança em empresas"> </div>
+<div class="swiper-slide"> <img src="IMG/Javascript.png" alt="livro de programação java script"> </div>
+<div class="swiper-slide"> <img src="IMG/Guia Front-end.png" alt="guia de programação front-end"></div>
+<div class="swiper-slide"> <img src="IMG/Portugol.png" alt="livro sobre programação em portugês"></div>
+<div class="swiper-slide"> <img src="IMG/CarreiraSemFronteira.png" alt="livro sobre como alavancar sua carreira"> </div>
+</div>
+
+<div class = "swiper-button-prev"> </div>
+<div class = "swiper-button-next"> </div>
+
+<div class="card">
+<div class="card_descricao">
+<div class="card_descricao">
+<h3 class="descricao_titulo">TALVEZ VOCÊ SE INTERRESSE POR...</h3>
+<p class="descricao_subtitulo">ANGULAR 11 E FIREBASE</p>
+<p class="descricao_subtitulo">Construindo uma aplicação integrada com a plataforma do Google</p>
+<img src="IMG/Angular-1.png" alt="livro aborda assuntos de programação" class="descricao__imagem">
+</div>
+</div>
+</div>
+
+<div class="card__botoes">
+<ul class="botoes">
+<li class="bootes__item">Favoritos</li>
+<img src="IMG/Favoritos.svg" alt="icone de favoritos">
+</ul>
+
+</div>
+
+</div>
+
+<section class="carrosel">
+<h2 class="Mais vendidos"></h2>
+</section>
+
+<div class="swiper">
+<div class="swipper-pagination">
+<div class="swipper-wrapper">
+<div class="swiper-slide"> <img src="IMG/Angular-2.png" alt="Livro de Programação Vol-2"></div>
+<div class="swiper-slide"> <img src="IMG/Caelum.png" alt="Livro sobre Tecnologia"></div>
+<div class="swiper-slide"> <img src="IMG/Estrelinhas.png" alt="Livro infantil sobre Astronomia"></div>
+<div class="swiper-slide"> <img src="IMG/MusicDot.png" alt="Livro sobre música de Cifras"></div>
+<div class="swiper-slide"> <img src="IMG/Rectangle 30.png" alt="libvro sobre geometria"></div>
+<div class="swiper-slide"> <img src="IMG/HipstersTech.png" alt="Livro sobre tecnologias atuais"></div>
+</div>
+</div>
+</div>
+
+<div class="swiper-button-prev"></div>
+<div class="swipper-button-next"></div>
+
+<div class="topicos" 
+    <h2 class="topicos_titulo">TOPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="topicos_lista"></ul>
+         <ul class="topicos_item"> <
+
 </body>
 </html>
